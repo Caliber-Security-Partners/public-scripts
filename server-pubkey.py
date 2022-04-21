@@ -73,7 +73,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     hosts = []
     if args.host != None:
-        hosts = hosts + []
+        hosts = args.host + []
     if args.file != None:
         hosts = hosts + list(hosts_from_file(args.file))
     for h in hosts:

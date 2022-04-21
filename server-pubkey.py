@@ -6,7 +6,7 @@
 # keypair for security auditing purposes
 
 # input one or more hosts as --host arguments
-# and/or a file containing a list of hosts, one on each line
+# and/or a --file argument containing a list of hosts, one on each line
 # each host can have an optional port specifier separated by a colon,
 # e.g. abc.com:443
 
